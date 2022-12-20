@@ -1,0 +1,71 @@
+
+body
+{
+    margin: 0px;
+/*    font-family: "inter";*/
+    font-weight: 450;
+    background-color: #f8f9fa;
+}
+
+.bg-blur
+{
+    box-shadow: 0px 2px 4px 4px rgba(100, 100, 100, 0.15);
+    background-color: rgba(255,255,255,0.72);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.bg-noblur
+{
+    box-shadow: 0px 2px 4px 4px rgba(100, 100, 100, 0.15);
+    background-color: rgba(255, 255, 255);
+}
+
+#section-heading
+{
+    color: #444;
+}
+
+#section-paragraph
+{
+    color: #666666;
+}
+
+#learn-more
+{
+    font-weight: 450;
+    font-family: "inter";
+}
+#learn-more:hover
+{
+    background-color: #eee;
+}
+
+#divider
+{
+    margin: 5rem 0;
+}
+
+#links
+{
+    color: #727272;
+    text-decoration: none;
+}
+
+#links-head:hover
+{
+    color: #444;
+    text-decoration: none;
+}
+.lineedit
+{
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 4px 4px rgba(100, 100, 100, 0.1);
+    color: #444;
+    font-weight: 450;
+}
+
+.round
+{
+    border-radius: 250px;
+}
